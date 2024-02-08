@@ -154,3 +154,19 @@ body {
     background: linear-gradient(to right, #11846b, #0a6d57);
     border-radius: 2px;
 }
+.header-underline, .package-addons-header {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.header-underline::after, .package-addons-header::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #11846b, #0a6d57);
+    border-radius: 2px;
+}
